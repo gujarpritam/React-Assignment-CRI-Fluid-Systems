@@ -1,0 +1,28 @@
+*{
+  background: rgb(255, 255, 198);
+  font-family: "Roboto",sans-serif;
+}
+
+@media (min-width:1600px) {
+  *{
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 1300px) and (max-width:1600px) {
+*{
+  font-size: large;
+}
+}
+
+@media (min-width: 590px) and (max-width: 1300px) {
+  *{
+    font-size: small;
+  }
+}
+
+@media (max-width: 590px) {
+  *{
+    font-size: smaller;
+  }
+}
