@@ -1,11 +1,12 @@
 .container{
   width: 90vw;
-  height: 10vh;
+  height: auto;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: white;
+  padding: 10px;
   background: rgb(255, 70, 70);
 }
 
